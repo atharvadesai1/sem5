@@ -1,0 +1,32 @@
+<library>
+    <book>
+        <title>The Secret</title>
+        <author>Rhonda Byrne</author>
+        <genre>Self-help</genre>
+    </book>
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Self-help</genre>
+    </book>
+    <book>
+        <title>Psychology of Money</title>
+        <author>Morgan Housel</author>
+        <genre>Finance</genre>
+    </book>
+    <book>
+        <title>Kite Runner</title>
+        <author>Khaled Hosseini</author>
+        <genre>Fiction</genre>
+    </book>
+    <book>
+        <title>Steve Jobs: A Biography</title>
+        <author>Walter Isaacson</author>
+        <genre>Biography</genre>
+    </book>
+    <book>
+        <title>The Innovators</title>
+        <author>Walter Isaacson</author>
+        <genre>Non-Fiction</genre>
+    </book>
+</library>

@@ -1,0 +1,64 @@
+{
+"user":{
+    "user202":{
+    "user-id":60004210202,
+    "name":"Atharva Desai",
+    "email":"desaiatharva50@gmail.com",
+    "department":"Computer Engineering",
+    "cetscore":98.33,
+    "birth-date":"02-06-2003",
+    "address":{
+        "street":"Govind Nagar",
+        "taluka":"Borivali W",
+        "city":"Mumbai",
+        "pincode":400092
+    },
+    "active": "True"
+    },
+    "user192":{
+        "user-id":60004210192,
+        "name":"Gaurang Bhogle",
+        "email":"bgaurang1357@gmail.com",
+        "department":"Computer Engineering",
+        "cetscore":98.47,
+        "birth-date":"07-11-2003",
+        "address":{
+            "street":"MHB Colony",
+            "taluka":"Borivali W",
+            "city":"Mumbai",
+            "pincode":400091
+        },
+        "active": "True"
+    },
+    "user388":{
+        "user-id":60004210388,
+        "name":"Raj Singh",
+        "email":"rajsingh45@gmail.com",
+        "department":"Information Technology",
+        "cetscore":98.69,
+        "birth-date":"05-02-2004",
+        "address":{
+            "street":"Mahakal Road",
+            "taluka":"Bhaynder W",
+            "city":"Mumbai",
+            "pincode":400056
+        },
+        "active": "False"
+    },
+    "user245":{
+        "user-id":60004210245,
+        "name":"Samarth Jadhav",
+        "email":"jdsamm345@gmail.com",
+        "department":"Mechanical Engineering",
+        "cetscore":94.32,
+        "birth-date":"07-11-2003",
+        "address":{
+            "street":"Sakinaka Road",
+            "taluka":"Andheri W",
+            "city":"Mumbai",
+            "pincode":400077
+        },
+        "active": "False"
+    }
+}
+}

@@ -1,0 +1,76 @@
+{
+    "flightAgency": {
+      "name": "SkyTravel",
+      "location": {
+        "city": "Metropolis",
+        "country": "Aeroland"
+      },
+      "contactDetails": {
+        "email": "info@skytravel.com",
+        "phone": "+123-456-7890"
+      },
+      "flights": [
+        {
+          "flightNumber": "ST101",
+          "airline": "Sky Airlines",
+          "departure": {
+            "airport": "Skyport International",
+            "city": "Metropolis",
+            "country": "Aeroland",
+            "date": "2023-12-10",
+            "time": "08:00 AM"
+          },
+          "arrival": {
+            "airport": "Cloud Nine Airport",
+            "city": "Skyville",
+            "country": "Aeroland",
+            "date": "2023-12-10",
+            "time": "10:30 AM"
+          },
+          "passengers": [
+            {
+              "name": "John Doe",
+              "seatNumber": "A23",
+              "ticketClass": "Economy"
+            },
+            {
+              "name": "Jane Smith",
+              "seatNumber": "B15",
+              "ticketClass": "Business"
+            }
+          ]
+        },
+        {
+          "flightNumber": "ST202",
+          "airline": "Cloud Air",
+          "departure": {
+            "airport": "Cloud Nine Airport",
+            "city": "Skyville",
+            "country": "Aeroland",
+            "date": "2023-12-12",
+            "time": "12:00 PM"
+          },
+          "arrival": {
+            "airport": "Skyport International",
+            "city": "Metropolis",
+            "country": "Aeroland",
+            "date": "2023-12-12",
+            "time": "02:30 PM"
+          },
+          "passengers": [
+            {
+              "name": "Alice Johnson",
+              "seatNumber": "C10",
+              "ticketClass": "First Class"
+            },
+            {
+              "name": "Bob Anderson",
+              "seatNumber": "D24",
+              "ticketClass": "Economy"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
