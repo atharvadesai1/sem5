@@ -1,0 +1,62 @@
+1. Normal execution without exceptions:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 2, 3, 0, 1
+Enter the keys of numbers separated by comma: 0, 1
+Enter one more number: 10
+Result is: 0.21081851067789192
+No exceptions.
+Finally call is executed.
+
+2. ValueError:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 2, 3, 0, 1
+Enter the keys of numbers separated by comma: 0, 1
+Enter one more number: -10
+Invalid literal.
+Finally call is executed.
+
+3. ImportError:
+Enter the module to be imported: xyz
+Module not found.
+Finally call is executed.
+
+4. ZeroDivisionError:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 12, 0, 0, 1
+Enter the keys of numbers separated by comma: 0, 1
+Division by zero.
+Finally call is executed.
+
+5. SyntaxError:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 2 3 0 1
+Comma missing.
+Finally call is executed.
+
+6. RuntimeError:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 0, 2, 0, 1
+Enter the keys of numbers separated by comma: 0, 1
+Enter one more number: 10
+Result is: 0.0
+May be meaningless.
+Finally call is executed.
+
+7. KeyboardInterrupt:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 
+Program was interrupted.
+Finally call is executed.
+
+8. KeyError:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): 2, 3, 0, 1
+Enter the keys of numbers separated by comma: 4, 5
+The requested key wasn't found.
+Finally call is executed.
+
+9. Other error:
+Enter the module to be imported: math
+Enter two numbers and their keys separated by comma (n1, n2, k1, k2): Vijay, Vidhi, 0, 1
+Something wrong in input.
+Finally call is executed.
