@@ -16,7 +16,6 @@ def mpm():
             msg = data.decode('ascii')
             print('Server: ',msg)
         except KeyboardInterrupt:
-            try
             print()
             print('Connection Break!')
             s.send('Connection Stopped from the client side!')

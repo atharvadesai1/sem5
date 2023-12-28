@@ -21,6 +21,7 @@ for i in range(len(process)):
         assigned.append({'Not assigned'+' : '+'Process No.'+str(i+1)+'['+str(process[i])+']'})
 print('Holes Size: '+str(oholes))
 print('Process Size: '+str(oprocess))
+print()
 print('Memory assigned using best fit')
 for s in assigned:
     print(s)
